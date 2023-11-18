@@ -67,10 +67,10 @@ MenuStatusReset() {
 
 CareLoop() {
     Static pockestLoopCount := 0
-    if (Mod(pockestLoopCount, RefreshDelay / CareDelay) = 0) {
-        ReloadWindow()
-        Sleep 3000
-    }
+    ; if (Mod(pockestLoopCount, RefreshDelay / CareDelay) = 0) {
+    ;     ReloadWindow()
+    ;     Sleep 3000
+    ; }
 
     ; In case of evolution
     ClickContinue()
@@ -102,13 +102,11 @@ CareLoop() {
         ClickBottomButton(1)
         Sleep 100
         SelectTrainingType(TrainStatIndex)
-        Sleep 1500
+        Sleep 100
         ClickContinue()
-        Sleep 500
-        ClickClose()
     }
 
-    Sleep 100
+    Sleep 1000
     ReloadWindow()
 
     pockestLoopCount := pockestLoopCount + 1
@@ -117,7 +115,7 @@ CareLoop() {
 +F12:: {
     Static on := False
     If (on := !on) {
-        SetTimer(CareLoop, CareDelay), SoundBeep(1500), CareLoop()
+        SetTimer(CareLoop, CareDelay), SoundBeep(1500), ReloadWindow(), Sleep(3000), CareLoop()
     } Else {
         SetTimer(CareLoop, 0), SoundBeep(1000)
     }
