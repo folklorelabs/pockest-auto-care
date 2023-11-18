@@ -2,13 +2,23 @@
 This is an [AutoHotkey](https://www.autohotkey.com/) script that automatically cares for [Street Fighter Pockest Monsters](https://www.streetfighter.com/6/buckler/minigame). Shout out to the [Pockest Guide on Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3003515624&tscn=1698405122) and their Discord community.
 
 ## Set up
-1. [Download AutoHotkey v2](https://www.autohotkey.com/download/ahk-v2.exe)
-2. Modify the PockestAutoCare.ini config file to your liking (see Config section below)
-3. Run PockestAutoCare.ahk
-4. Open https://www.streetfighter.com/6/buckler/minigame in a separate Chrome window
-5. Toggle the script on/off by pressing SHIFT + F12
 
-*This script depends on window sizing/positioning. Ensure you are using Chrome with the bookmarks bar visible. Otherwise you will need to modify the Size, CanvasX, and CanvasY Settings within PockestAutoCare.ini to match the dimensions of your setup*
+#### Download & Installation
+
+1. [Download AutoHotkey v2](https://www.autohotkey.com/download/ahk-v2.exe) and install it
+2. [Download this repo](https://github.com/folklorelabs/pockest-auto-care/archive/refs/heads/main.zip)
+
+#### Configure
+
+1. Modify the PockestAutoCare.ini config file to your liking (see Config section below)
+
+#### Run
+
+1. Open https://www.streetfighter.com/6/buckler/minigame in a separate Chrome window\*
+2. Run **PockestAutoCare.ahk**
+3. Press **SHIFT + F12** to toggle the script on/off
+
+*\* This script depends on window sizing/positioning. Ensure you are using ***Chrome with the bookmarks bar visible***. Otherwise you will need to modify the Size, CanvasX, and CanvasY Settings within PockestAutoCare.ini to match the dimensions of your setup*
 
 
 ## Config
