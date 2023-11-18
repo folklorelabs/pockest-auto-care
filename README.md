@@ -67,6 +67,3 @@ General settings used by the script. Defaults should be good for most users here
 - **CanvasY**: The y-offset of the Pockest canvas within the browser window. Used for calculating click positions.
     - Default: 443
     - Type: Number
-- **RefreshDelay**: The amount of time (in ms) to delay refreshing the browser window. Useful for preventing game desyncs.
-    - Default: 1800000 (30 minutes)
-    - Type: Number

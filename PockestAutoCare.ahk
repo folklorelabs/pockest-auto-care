@@ -102,11 +102,14 @@ CareLoop() {
         ClickBottomButton(1)
         Sleep 100
         SelectTrainingType(TrainStatIndex)
-        Sleep 1500
-        ClickContinue()
-        Sleep 500
-        ClickClose()
+        ; Sleep 1500
+        ; ClickContinue()
+        ; Sleep 500
+        ; ClickClose()
     }
+
+    Sleep 100
+    ReloadWindow()
 
     pockestLoopCount := pockestLoopCount + 1
 }
