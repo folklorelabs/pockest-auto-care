@@ -13,7 +13,7 @@ This is an [AutoHotkey](https://www.autohotkey.com/) script that automatically c
 
 ## Config
 
-#### CarePlan
+#### \[CarePlan\]
 Care plan settings. Utilize [Pockest Guide on Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=3003515624&tscn=1698405122) to figure out which stats to train and whether or not to care for your pockest.
 
 - **CareDelay**: The amount of time (in ms) to delay running the care plan again.
@@ -35,7 +35,7 @@ Care plan settings. Utilize [Pockest Guide on Steam](https://steamcommunity.com/
     - Default: "Power"
     - Type: String ("Power", "Speed", "Technique")
 
-#### Settings
+#### \[Settings\]
 General settings used by the script. Defaults should be good for most users here.
 
 - **WindowTitle**: The title of the window containing the Pockest game. This is used by the script to focus and resize the window. You may need to change this if using a different language.
